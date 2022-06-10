@@ -6,7 +6,7 @@ Portions of the codebase in this repository uses codes originally provided in th
 
 
 ## Steps to reproduce the results
-NOTE: Please run **all** commands from the root directory of the repository, i.e from ```CS_BGM/```
+NOTE: Please run **all** commands from the root directory of the repository, i.e from `CS_BGM/`
 
 ### Requirements: 
 ---
@@ -30,7 +30,7 @@ Pip installation can be done by ```$ pip install -r requirements.txt```
     $ ./setup/download_data.sh
     ```
 
-2. The following command will unzip the trained model weights for the experiments:
+2. The following command will unzip the pretrained model weights for the experiments:
 
    ```shell
    $ unzip models.zip
@@ -43,7 +43,7 @@ Pip installation can be done by ```$ pip install -r requirements.txt```
     - VAE on MNIST: ```$ ./setup/train_mnist_vae.sh```
     - DCGAN on celebA, see https://github.com/carpedm20/DCGAN-tensorflow
 
-3. To use wavelet based estimators, you need to create the basis matrix:
+3. To use wavelet-based estimators, you need to create the basis matrix:
 
 ```shell
 $ python ./src/wavelet_basis.py
@@ -67,7 +67,7 @@ $ bash ./quant_scripts/celebA_VI.sh
 for the complete version.
 
 
-Then you will get a folder containing those scripts, say ``./scripts/``, then run
+Then you will get a folder containing those scripts, say ``./scripts/``, next run
 
 ```shell
 $ bash ./utils/run_sequentially.sh ./scripts/
@@ -84,7 +84,7 @@ $ python ./src/make_graphs.py
 
 All parameters are carefully selected, while you can also fine-tune them to get better results. 
 
-The core codes to implement CS-BGM are the functions `dcgan_Baysian_estimator` and `dcgan_KL_estimator` in file `./src/celebA_estimators.py`. 
+The core codes to implement CS-BGM can be found in the functions `dcgan_Baysian_estimator` and `dcgan_KL_estimator` of file `./src/celebA_estimators.py`. 
 
 Please feel free to explore other codes in this repository. 
 
