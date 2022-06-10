@@ -95,7 +95,7 @@ Please feel free to explore other codes in this repository.
 
 @InProceedings{CS-BGM,
   title = 	 {Modeling Uncertainties in Generative Compressed Sensing},
-  author =       {Yilang Zhang and Mengchu Xu and Xiaojun Mao and Jian Wang},
+  author =       {Zhang, Yilang and Xu, Mengchu and Mao, Xiaojun and Wang, Jian},
   booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
   pages = 	 {},
   year = 	 {2022},
