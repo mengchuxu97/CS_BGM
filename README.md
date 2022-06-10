@@ -2,9 +2,7 @@
 
 This repository provides code to reproduce results (Paper: CS-BGM). 
 
-Portions of the codebase in this repository uses code originally provided in the open-source Compressed Sensing with Generative Model (https://github.com/AshishBora/csgm) and (https://github.com/ermongroup/sparse_genSparse-Gen) repositories.
-
-
+Portions of the codebase in this repository uses codes originally provided in the open-source [CSGM](https://github.com/AshishBora/csgm) and  [Sparse-Gen](https://github.com/ermongroup/sparse_genSparse-Gen) repositories.
 
 
 ## Steps to reproduce the results
@@ -81,17 +79,30 @@ To get results and make graphs, run
 $ python ./src/make_graphs.py
 ```
 
-
-
 ### Supplementary
-
 ---
 
-All parameters are carefully selected, but you can also fine-tune them to get better results. 
+All parameters are carefully selected, while you can also fine-tune them to get better results. 
 
-The core code to implement CS-BGM is the function ``dcgan_Baysian_estimator `` and ``dcgan_KL_estimator``in ``./src/celebA_estimators.py``. 
+The core codes to implement CS-BGM are the functions `dcgan_Baysian_estimator` and `dcgan_KL_estimator` in file `./src/celebA_estimators.py`. 
 
-In addition, we also provide some useful codes in this repository. Please feel free to explore them. 
+Please feel free to explore other codes in this repository. 
 
+### Citation
+---
 
+```tex
 
+@InProceedings{CS-BGM,
+  title = 	 {Modeling Uncertainties in Generative Compressed Sensing},
+  author =       {Yilang Zhang and Mengchu Xu and Xiaojun Mao and Jian Wang},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {},
+  year = 	 {2022},
+  volume = 	 {},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+}
+
+```
