@@ -1,6 +1,6 @@
 # CS-BGM
 
-This repository provides code to reproduce results reported in the paper [Modeling Uncertainties in Generative Compressed Sensing](https://proceedings.mlr.press/v162/zhang22ai.html). 
+This repository provides code to reproduce results reported in the paper [Uncertainty Modeling in Generative Compressed Sensing](https://proceedings.mlr.press/v162/zhang22ai.html). 
 
 Portions of the codebase in this repository uses codes originally provided in the open-source [CSGM](https://github.com/AshishBora/csgm) and  [Sparse-Gen](https://github.com/ermongroup/sparse_genSparse-Gen) repositories.
 
