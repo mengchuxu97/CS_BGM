@@ -1,6 +1,6 @@
 # CS-BGM
 
-This repository provides code to reproduce results reported in the paper [Modeling Uncertainties in Generative Compressed Sensing]() (to appear soon as a poster on ICML 2022). 
+This repository provides code to reproduce results reported in the paper [Modeling Uncertainties in Generative Compressed Sensing](https://proceedings.mlr.press/v162/zhang22ai.html). 
 
 Portions of the codebase in this repository uses codes originally provided in the open-source [CSGM](https://github.com/AshishBora/csgm) and  [Sparse-Gen](https://github.com/ermongroup/sparse_genSparse-Gen) repositories.
 
@@ -93,16 +93,19 @@ Please feel free to explore other codes in this repository.
 
 ```tex
 
-@InProceedings{CS-BGM,
-  title = 	 {Modeling Uncertainties in Generative Compressed Sensing},
+@InProceedings{pmlr-v162-zhang22ai,
+  title = 	 {Uncertainty Modeling in Generative Compressed Sensing},
   author =       {Zhang, Yilang and Xu, Mengchu and Mao, Xiaojun and Wang, Jian},
   booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
-  pages = 	 {},
+  pages = 	 {26655--26668},
   year = 	 {2022},
-  volume = 	 {},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
   series = 	 {Proceedings of Machine Learning Research},
   month = 	 {17--23 Jul},
   publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/zhang22ai/zhang22ai.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/zhang22ai.html},
 }
 
 ```
